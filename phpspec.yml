@@ -1,0 +1,6 @@
+suites:
+    main:
+        namespace: Alexesba
+        psr4_prefix: Alexesba
+        src_path: app
+        spec_prefix: spec
