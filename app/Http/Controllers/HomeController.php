@@ -30,6 +30,7 @@ class HomeController extends Controller {
 	 */
 	public function index()
 	{
+        echo 'xx';
 		return view('home');
 	}
 

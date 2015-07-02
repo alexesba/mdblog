@@ -145,6 +145,16 @@ return [
 		'Alexesba\Providers\RouteServiceProvider',
         'Alexesba\Providers\MarkdownServiceProvider',
 
+        /**
+         *
+         * Third party libraries
+         */
+
+        'Former\FormerServiceProvider',
+        'Vinelab\Editor\EditorServiceProvider',
+
+
+
 	],
 
 	/*
@@ -192,6 +202,13 @@ return [
 		'URL'       => 'Illuminate\Support\Facades\URL',
 		'Validator' => 'Illuminate\Support\Facades\Validator',
 		'View'      => 'Illuminate\Support\Facades\View',
+
+        /**
+         *
+         * Third party aliases
+         */
+        'Former' => 'Former\Facades\Former',
+
 
 	],
 
